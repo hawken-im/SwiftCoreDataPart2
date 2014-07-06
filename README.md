@@ -1,4 +1,4 @@
-SwiftCoreDataPart1
+SwiftCoreDataPart2
 ==================
 
 Swift, CoreData, TableView 
