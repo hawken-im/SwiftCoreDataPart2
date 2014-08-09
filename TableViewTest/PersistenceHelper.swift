@@ -16,7 +16,7 @@ class PersistenceHelper: NSObject {
     var appDel: AppDelegate = (UIApplication.sharedApplication().delegate as AppDelegate)
     var context: NSManagedObjectContext;
     
-    init(){
+    override init(){
         context = appDel.managedObjectContext
     }
     

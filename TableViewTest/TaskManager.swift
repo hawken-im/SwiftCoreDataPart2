@@ -17,10 +17,10 @@ struct Task{
 
 class TaskManager: NSObject {
 
-    var tasks = Task[]()
+    var tasks = [Task]()
     var persistenceHelper: PersistenceHelper = PersistenceHelper()
     
-    init(){
+    override init(){
         
         var tempTasks:NSArray = persistenceHelper.list("Task")
         for res:AnyObject in tempTasks{
