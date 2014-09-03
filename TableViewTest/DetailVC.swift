@@ -18,7 +18,7 @@ class DetailVC: UIViewController {
     var cellName:String = ""
     var cellDesc:String = ""
     
-    required init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder) {
         
         super.init(coder:aDecoder)
         
